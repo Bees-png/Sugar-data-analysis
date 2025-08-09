@@ -19,8 +19,6 @@ The goal is to **derive deep insights** into how sugar intake may influence publ
 
 ##  Dataset Information
 **File name:** `sugar_consumption_dataset.csv`  
-Got it ✅
-Here’s the **plain, simple explanation** of each column from your dataset:
 
 1. **Country** – Name of the country (e.g., Nigeria, USA, India).
 2. **Year** – Year the data was recorded.
