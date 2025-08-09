@@ -19,15 +19,35 @@ The goal is to **derive deep insights** into how sugar intake may influence publ
 
 ##  Dataset Information
 **File name:** `sugar_consumption_dataset.csv`  
-**Key columns:**
-- `Country` – Name of the country
-- `Year` – Year of record
-- `Sugar_Consumption_kg_per_capita` – Annual sugar consumption per person
-- `Obesity_Rate_%` – Percentage of obese individuals
-- `Diabetes_Prevalence_%` – Percentage of people with diabetes
-- `Population` – Population of the country in the given year
+Got it ✅
+Here’s the **plain, simple explanation** of each column from your dataset:
 
----
+1. **Country** – Name of the country (e.g., Nigeria, USA, India).
+2. **Year** – Year the data was recorded.
+3. **Country\_Code** – Short code for the country (e.g., NGA for Nigeria, USA for United States).
+4. **Continent** – The continent the country is in (e.g., Africa, Asia, Europe).
+5. **Region** – A smaller region or subcontinent (e.g., West Africa, South America).
+6. **Population** – The total number of people living in the country that year.
+7. **GDP\_Per\_Capita** – The average income per person in that country (Gross Domestic Product divided by population).
+8. **Per\_Capita\_Sugar\_Consumption** – Average sugar consumed per person per year (kg or similar unit).
+9. **Total\_Sugar\_Consumption** – Total sugar consumed in the entire country for that year.
+10. **Sugar\_From\_Sugarcane** – Amount of sugar obtained from sugarcane.
+11. **Sugar\_From\_Beet** – Amount of sugar obtained from sugar beet plants.
+12. **Sugar\_From\_HFCS** – Sugar from High-Fructose Corn Syrup (common in soft drinks, processed food).
+13. **Sugar\_From\_Other** – Sugar from other sources (honey, maple syrup, etc.).
+14. **Processed\_Food\_Consumption** – Amount of processed foods consumed in that country (likely in kg per person per year).
+15. **Avg\_Daily\_Sugar\_Intake** – Average amount of sugar consumed per person per day.
+16. **Diabetes\_Prevalence** – % of the population with diabetes.
+17. **Obesity\_Rate** – % of the population considered obese.
+18. **Sugar\_Imports** – Amount of sugar brought into the country from other nations.
+19. **Sugar\_Exports** – Amount of sugar sold to other countries.
+20. **Avg\_Retail\_Price\_Per\_Kg** – Average retail price of sugar per kilogram.
+21. **Gov\_Tax** – Government tax rate or amount applied to sugar products.
+22. **Gov\_Subsidies** – Amount of subsidies given by the government to sugar producers.
+23. **Education\_Campaign** – Government/public sugar-awareness or health education campaigns (could be “Yes/No” or a rating).
+24. **Urbanization\_Rate** – % of the country’s population living in urban areas.
+25. **Climate\_Conditions** – Climate type of the country (e.g., tropical, arid).
+26. **Sugarcane\_Production\_Yield** – Amount of sugarcane produced per hectare (or per unit area)
 
 ## Example Insights from SQL Queries
 Some sample questions answered in this project:
