@@ -1,4 +1,4 @@
-# Sugar Consumption & Health Analysis (SQL Project)
+# Sugar Consumption & Health Analysis 1960-2023 (SQL Project)
 
 ## Project Overview
 This project explores **global sugar consumption trends** and their **health implications** using SQL queries for data analysis.  
