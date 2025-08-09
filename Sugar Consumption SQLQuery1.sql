@@ -84,6 +84,17 @@ FROM Sugar_Consumption
 GROUP BY Region, Year
 ORDER BY Region, Year;
 
+--Which countries have reduced sugar consumption the most?--
+SELECT Country, (MAX(Per_Capita_Sugar_Consumption ) - MIN(Per_Capita_Sugar_Consumption )) AS Reduction
+FROM Sugar_Consumption
+GROUP BY Country
+ORDER BY Reduction DESC;
+
+--Top 5 countries with fastest-growing sugar consumption--
+SELECT top 5 Country, ((MAX(Per_Capita_Sugar_Consumption) - MIN(Per_Capita_Sugar_Consumption)) / MIN(Per_Capita_Sugar_Consumption)) * 100 AS Growth_Percent
+FROM Sugar_Consumption
+GROUP BY Country
+ORDER BY Growth_Percent DESC
 
 
 
